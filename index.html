@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEON STRIKE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 独立三文件版本：把本文件改名为 index.html，与 style.css、game.js 放同一文件夹即可 -->
+    <main class="page">
+      <h1>NEON STRIKE</h1>
+      <canvas id="gameCanvas" width="800" height="600">你的浏览器不支持 Canvas。</canvas>
+      <p class="hint">WASD / 方向键移动 · Space 或 Shift 闪避 · ESC 暂停</p>
+    </main>
+    <script src="game.js"></script>
+    <script>
+      startDodgeGame();
+    </script>
+  </body>
+</html>
